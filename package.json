@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
+    "h3": "^1.7.1",
     "openai": "^3.2.1"
   }
 }

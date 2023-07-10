@@ -1,5 +1,6 @@
 
 import { Configuration, OpenAIApi } from "openai";
+import { defineEventHandler } from 'h3';
 
 const port = process.env.PORT || "8080";
 
@@ -50,3 +51,4 @@ export default defineEventHandler( async (event) => {
   }
   return "";
 });
+
